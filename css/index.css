@@ -71,11 +71,31 @@ p {
     margin: 0 auto;
 }
 
+/* header {
+    display: flex;
+    justify-content: sapce
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 40px 0;
+} 
+
+nav a {
+    text-decoration: none;
+    margin-right: 50px;
+    color: black;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
