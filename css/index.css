@@ -128,6 +128,14 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    order: 0;
+    animation: reorder 250ms  infinite;
+}
+
+@keyframes reorder {
+    0% {order: 0;}
+    50% {order: 1;}
+    100% {order: 2;}
 }
 
 .middle-content .boxes .box-2 {
@@ -141,6 +149,13 @@ nav a {
     justify-content: center;
 }
 
+@keyframes reorderB {
+    0% {order: 0;}
+    30% {order: 3;}
+    70% {order: 2;}
+    100% {order: 4;}
+}
+
 .middle-content .boxes .box-3 {
     width: 12.5%;
     height: 100px;
@@ -150,6 +165,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: reorderB 500ms  infinite;
 }
 
 .middle-content .boxes .box-4 {
@@ -172,6 +188,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: reorder 450ms  infinite;
 }
 
 .middle-content .boxes .box-6 {
@@ -194,6 +211,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: reorderB 500ms  infinite;
 }
 
 .middle-content .boxes .box-8 {
