@@ -94,14 +94,15 @@ nav a {
     flex-wrap: wrap;
     justify-content: flex-start;
     margin: 20px;
-    border-bottom: 1px dashed black;
+    /* border-bottom: 1px dashed black; */
 }
 
 .middle-content {
+
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-
+    justify-content: space-around;
+    border-top: 1px dashed black;
 }
 
 .card {
@@ -112,6 +113,7 @@ nav a {
 
 .card img {
     width: 360px;
+    margin: 20px 0;
 }
 
 button {
@@ -121,46 +123,13 @@ button {
     width: 123px;
     height: 36px;
     margin: 20px 0;
-}
-
-/* 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 20px 0;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+    cursor: pointer;
 }
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    padding: 0 28px;
+    /* width: 750px; */
 }
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-} */
 
 footer {
     width: 100%;
