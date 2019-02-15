@@ -92,6 +92,15 @@ nav a {
 .top-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+
+/* 
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px 0;
     border-bottom: 1px dashed black;
@@ -241,7 +250,7 @@ nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
-}
+} */
 
 footer {
     width: 100%;
